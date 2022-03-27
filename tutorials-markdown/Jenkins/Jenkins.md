@@ -32,11 +32,11 @@ Duration: 0:02:00
 
 ![jenkinsfile](./image/jenkinsfile.png)
 
-- Jenkinsfile 代码实例：
+- Jenkinsfile 代码实例：[https://github.com/murphysecurity/murphysec-jenkins-tools/blob/main/Jenkinsfile-example](https://github.com/murphysecurity/murphysec-jenkins-tools/blob/main/Jenkinsfile-example)
 
 > 执行逻辑：代码下拉后，通过墨菲安全 CLI 对代码进行检测，然后使用 Linux 工具 `jq` 解析检查结果，如检测结果存在`强烈建议修复`级别的缺陷组件，则终止构建流程。
 
-- 飞书消息通知脚本示例：
+- 飞书消息通知脚本示例：[https://github.com/murphysecurity/murphysec-jenkins-tools/blob/main/feishu.sh](https://github.com/murphysecurity/murphysec-jenkins-tools/blob/main/feishu.sh)
 
 
 ## Jenkins上设置脚本路径
