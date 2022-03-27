@@ -57,7 +57,7 @@ Duration: 0:03:00
 
 ![plugin-manager](./image/plugin_manager.png)
 
-构建触发器勾选 `Build when a changs is ...` 选项，该 URL 在 GitLab 项目 Webhooks 中会用到
+- 构建触发器勾选 `Build when a changs is ...` 选项，该 URL 在 GitLab 项目 Webhooks 中会用到
 
 ![jenkins-webhook](./image/jenkins_webhook.png)
 
